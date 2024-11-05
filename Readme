@@ -1,0 +1,32 @@
+Disclaimer: This application is intended for educational purposes only. It should not be used as a substitute for professional medical advice, diagnosis, or treatment. Please consult a healthcare professional for any medical concerns or risk assessments.
+
+📖 Overview
+This application predicts the likelihood of heart disease based on user inputs such as age, blood pressure, cholesterol levels, and other relevant health indicators. The model utilizes machine learning techniques to provide predictions, helping users gain insight into potential risk factors.
+
+🕵️ Exploratory Data Analysis (EDA)
+An initial Exploratory Data Analysis (EDA) was conducted to understand the data distribution and identify key features for predicting heart disease. This analysis revealed significant correlations and patterns between the input variables and the likelihood of heart disease, guiding feature selection and model training.
+
+⚙️ Model Training and Hyperparameter Tuning
+Multiple machine learning algorithms were tested and evaluated using metrics such as accuracy, recall, and AUC (Area Under the Curve). Hyperparameter tuning was conducted using GridSearch to enhance model performance. After extensive testing, Gradient Boosting with optimized hyperparameters emerged as the top-performing model.
+
+🔍 Prediction Model
+The system was trained on various machine learning models, each assessed for its predictive capabilities using accuracy, recall, and AUC. These metrics are critical in determining the model's ability to correctly identify cases of heart disease (recall) and its overall classification accuracy (AUC).
+
+🛠️ Technologies Used
+Machine Learning Models: Gradient Boosting, Random Forest, Logistic Regression, and K-Nearest Neighbors (KNN).
+Python Libraries:
+NumPy: For numerical computations and data handling.
+scikit-learn: For model building, hyperparameter tuning, and performance evaluation.
+pandas: For data manipulation and preprocessing.
+
+📈 Model Insights
+The best-performing model, Gradient Boosting with hyperparameter tuning, achieved:
+
+Accuracy: 95.9%
+Recall: 92.0%
+AUC: 0.993
+
+This model demonstrates strong predictive power and a high ability to distinguish between cases with and without heart disease, making it well-suited for heart disease risk prediction.
+
+🚀 Test the Application
+Interested in understanding your potential heart disease risk? Use the "Try It Now" feature to enter relevant health information and receive a risk assessment. This demo does not store data, ensuring complete privacy and security.
